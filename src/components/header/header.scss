@@ -1,0 +1,341 @@
+.header_bg {
+  background: #161b22;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header_block {
+  padding: 10px;
+}
+.header_img-block {
+  width: 50px;
+}
+form input {
+  width: 300px;
+  height: 30px;
+  color: #fff;
+  padding-left: 5px;
+  background: rgba(0, 0, 0, 0.17);
+  border: 1px solid #666565;
+  border-radius: 5px;
+  outline: none;
+}
+form input::placeholder {
+  padding-left: 5px;
+}
+.header_list {
+  margin-left: 20px;
+  column-gap: 20px;
+  .header_item {
+    cursor: pointer;
+
+    p {
+      font-weight: 500;
+      font-size: 13px;
+      color: #fff;
+      transition: ease 0.5s;
+    }
+  
+  }
+}
+.header_item p:hover{
+    opacity: 0.8;
+}
+.header_notice_block {
+  background-color: transparent;
+  border: none;
+}
+.header_img-block {
+  cursor: pointer;
+}
+.header-img-block2,
+.plus_down_img-block {
+  display: flex;
+  background-color: transparent;
+  border: none;
+}
+.header_notice_block {
+  cursor: pointer;
+  img {
+    margin-top: 5px;
+    width: 12px;
+    margin-right: 15px;
+  }
+}
+.plus_down_img-block {
+  cursor: pointer;
+  img {
+    width: 22px;
+    margin-right: 15px;
+  }
+}
+.header-img-block2 {
+  cursor: pointer;
+  img {
+    width: 30px;
+    border-radius: 50%;
+  }
+}
+.down_img {
+  border-radius: 0 !important;
+  width: 8px !important;
+  margin-left: 3px;
+}
+
+// down header
+.header_bg-down{
+      background-color: #0D1117;
+.header_list-down {
+  margin: 0 auto;
+  width: 520px;
+  height: 60px;
+  .header_item-down {
+    position: relative;
+    cursor: pointer;
+    .item1,.item2,.item3,.item4,.item5 {
+      padding-top: 9px;
+      padding-bottom: 9px;
+      font-weight: 200;
+      font-size: 13px;
+      color: #fff;
+    }
+  }
+  .item1::before{
+    background-repeat: no-repeat;
+    content: '';
+    background-image: url('../../img/icon1.svg');
+    width: 20px;
+    height: 20px;
+   background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+
+    margin-right: 3px;
+  }
+  .item2::before{
+    background-repeat: no-repeat;
+    content: '';
+    background-image: url('../../img/icon2.svg');
+    width: 20px;
+    height: 20px;
+   background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3px;
+
+  }
+  .item3::before{
+    background-repeat: no-repeat;
+    content: '';
+    background-image: url('../../img/icon3.svg');
+    width: 20px;
+    height: 20px;
+   background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3px;
+  }
+  .item4::before{
+    background-repeat: no-repeat;
+    content: '';
+    background-image: url('../../img/icon4.svg');
+    width: 20px;
+    height: 20px;
+   background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3px;
+  }
+  .item5::before{
+    background-repeat: no-repeat;
+    content: '';
+    background-image: url('../../img/icon5.svg');
+    width: 20px;
+    height: 20px;
+   background-size: contain;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 3px;
+  }
+}
+}
+.item1,.item2,.item3,.item4,.item5{
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  transition: ease 0.5s;
+  margin-bottom: 5px;
+  padding: 5px 7px;
+  border-radius: 5px;
+}
+.box1{
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 95px;
+  height: 2px;
+  background-color: #F78166;
+}
+.box2{
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 135px;
+  height: 2px;
+  background-color: #F78166;
+}
+.box3{
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 90px;
+  height: 2px;
+  background-color: #F78166;
+}
+// .item2:focus~div{
+//   position: absolute;
+//   bottom: -9px;
+//   left: 0;
+//   width: 110px;
+//   height: 2px;
+//   background-color: #F78166;
+// }
+// .item3:focus~div{
+//   position: absolute;
+//   bottom: -9px;
+//   left: 0;
+//   width: 90px;
+//   height: 2px;
+//   background-color: #F78166;
+// }
+// .item4:focus~div{
+//   position: absolute;
+//   bottom: -9px;
+//   left: 0;
+//   width: 97px;
+//   height: 2px;
+//   background-color: #F78166;
+// }
+// .item5:focus~div{
+//   position: absolute;
+//   bottom: -9px;
+//   left: 0;
+//   width: 70px;
+//   height: 2px;
+//   background-color: #F78166;
+// }
+.item1:hover,.item2:hover,.item3:hover,.item4:hover,.item5:hover{
+  background-color: #161b22;
+}
+.line{
+  height: 1px;
+  background-color: #272a2ec2;
+}
+.nav1{
+  overflow: visible
+}
+.fixed{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.none{
+  display: none;
+}
+.fixed_img_block{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  margin-left: -300px;
+  img{
+    width: 40px;
+    margin-right: 12px;
+    border-radius: 50%;
+  }
+  h3{
+    font-size: 14px;
+    color: #c7c6c6;
+  }
+}
+.block{
+  display: inline-block;
+}
+.header-img-block2{
+  position: relative;
+}
+.header_dropdown_list{
+  position: absolute;
+  width: 150px;
+background: #161b22;
+border: 1px solid #666565;
+border-radius: 10px;
+top: 103%;
+right: -22%;
+z-index: 1;
+
+}
+.header_dropdown_item{
+  border-radius: 5px;
+  transition: ease 0.4s;
+  p{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color: #FFFFFF;
+padding-bottom: 10px;
+  }
+  div{
+    border: 1px solid rgba(102, 101, 101, 0.5);
+  }
+}
+.header_dropdown_item:hover{
+  background-color: #1d83f7;
+}
+.plus_item{
+  position: relative;
+}
+
+.header_dropdown_plus{
+  position: absolute;
+  width: 150px;
+background: #161b22;
+border: 1px solid #666565;
+border-radius: 10px;
+top: 103%;
+left: -155%;
+z-index: 1;
+
+}
+.header_dropdown_item_plus{
+  border-radius: 5px;
+  transition: ease 0.4s;
+  p{
+    padding-top: 5px;
+    padding-left: 10px;
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+color: #FFFFFF;
+padding-bottom: 10px;
+  }
+  div{
+    border: 1px solid rgba(102, 101, 101, 0.5);
+  }
+}
+.header_dropdown_item_plus:hover{
+  background-color: #1d83f7;
+}
+
+.reposCount{
+  background-color: #343942;
+  border-radius: 50%;
+  padding: 3px 3px;
+}
+.starCount{
+  background-color: #343942;
+  border-radius: 50%;
+  padding: 3px 6px;
+}
+
+

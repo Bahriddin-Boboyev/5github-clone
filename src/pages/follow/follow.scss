@@ -1,0 +1,57 @@
+.followers_line {
+  width: 100%;
+  border: 1px solid #282c31;
+  margin-top: 13px;
+  margin-bottom: 23px;
+}
+
+
+.followers_item {
+  height: 100px;
+}
+.followers_img_block {
+  margin-left: 20px;
+  img {
+    width: 60px;
+    border-radius: 50%;
+  }
+}
+.followers_title-block {
+  margin-left: 25px;
+  margin-top: -40px;
+}
+.eight_fl {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.followers_title-block {
+
+  p:hover{
+    color: #58A6FF;
+  }
+  .followers_title {
+    transition: ease 0.5s;
+    color: #b3bac2;
+    font-size: 14px;
+  }
+  .followers_username{
+    transition: ease 0.5s;
+    color: #8b949e;
+    font-weight: 200;
+    font-size: 13px;
+    margin-left: 10px;
+  }
+}
+.unfollow{
+  cursor: pointer;
+    width: 80px;
+    height: 30px;
+    background: #21262d;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+    color: #e5e5e5;
+    font-weight: 500;
+}
+.btnhover:hover{
+  background: #2a3038;
+}
